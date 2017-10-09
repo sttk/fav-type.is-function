@@ -1,4 +1,4 @@
-# [@fav/type.is-function][repo-url] [![NPM][npm-img]][npm-url] [![MIT License][mit-img]][mit-url] [![Build Status][travis-img]][travis-url] [![Build Status][appveyor-img]][appveyor-url]
+# [@fav/type.is-function][repo-url] [![NPM][npm-img]][npm-url] [![MIT License][mit-img]][mit-url] [![Build Status][travis-img]][travis-url] [![Build Status][appveyor-img]][appveyor-url] [![Coverage status][coverage-img]][coverage-url]
 
 Checks whether a value is a function or not.
 
@@ -84,7 +84,7 @@ True, if *value* is a function.
 | Windows10 |&#x25ef;|&#x25ef;|&#x25ef;|
 | Linux     |&#x25ef;|&#x25ef;|&#x25ef;|
 
-### Node.js (0.8〜0.12)
+### Node.js (〜0.12)
 
 | Platform  |  0.7   |  0.8   |  0.9   |  0.10  |  0.11  |  0.12  |
 |:---------:|:------:|:------:|:------:|:------:|:------:|:------:|
@@ -118,3 +118,5 @@ See the file LICENSE in this distribution for more details.
 [travis-url]: https://travis-ci.org/sttk/fav-type.is-function
 [appveyor-img]: https://ci.appveyor.com/api/projects/status/github/sttk/fav-type.is-function?branch=master&svg=true
 [appveyor-url]: https://ci.appveyor.com/project/sttk/fav-type-is-function
+[coverage-img]: https://coveralls.io/repos/github/sttk/fav-type.is-function/badge.svg?branch=master
+[coverage-url]: https://coveralls.io/github/sttk/fav-type.is-function?branch=master
