@@ -14,14 +14,14 @@
     "web:build-src": "browserify index.js --standalone fav.type.is-function -o web/fav.type.is-function.js && cd web && uglifyjs fav.type.is-function.js --compress --mangle -o fav.type.is-function.min.js --source-map url=\"'fav.type.is-function.min.js.map'\"",
     "web:build-test": "node tool/mktest.js",
     "chrome:install": "npm i --no-save mocha-chrome",
-    "chrome:test": "mocha-chrome test/web/fav-type.is-function.test.html",
+    "chrome:test": "mocha-chrome test/web/browser-test.html",
     "phantom:install": "npm i --no-save phantomjs-prebuilt mocha-phantomjs",
-    "phantom:test": "mocha-phantomjs -p node_modules/.bin/phantomjs test/web/fav-type.is-function.test.html",
+    "phantom:test": "mocha-phantomjs -p node_modules/.bin/phantomjs test/web/browser-test.html",
     "build": "npm run lint && npm run coverage && npm run web:build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sttk/fav-type.git"
+    "url": "git+https://github.com/sttk/fav-type.is-function.git"
   },
   "keywords": [
     "function",
@@ -33,9 +33,9 @@
   "author": "Takayuki Sato",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sttk/fav-type/issues"
+    "url": "https://github.com/sttk/fav-type/issues.is-function"
   },
-  "homepage": "https://github.com/sttk/fav-type#readme",
+  "homepage": "https://github.com/sttk/fav-type.is-function#readme",
   "devDependencies": {
     "@xslet/platform": "^0.1.5",
     "browserify": "^14.4.0",

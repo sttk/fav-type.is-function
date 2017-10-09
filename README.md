@@ -1,10 +1,10 @@
-# [@fav/type.is-function][repo-url] [![NPM version][npm-img]][npm-url] [![MIT License][mit-img]][mit-url] [![Build Status][travis-img]][travis-url] [![Build Status][appveyor-img]][appveyor-url]
+# [@fav/type.is-function][repo-url] [![NPM][npm-img]][npm-url] [![MIT License][mit-img]][mit-url] [![Build Status][travis-img]][travis-url] [![Build Status][appveyor-img]][appveyor-url]
 
 Checks whether a value is a function or not.
 
 > "fav" is an abbreviation of "favorite" and also the acronym of "for all versions".
 > This package is intended to support all Node.js versions and many browsers as possible.
-> At least, this package supports NodeJS >= v0.10 and major Web browsers: Chrome, Firefox, IE11, Edge, Vivaldi and Safari.
+> At least, this package supports Node.js >= v0.10 and major Web browsers: Chrome, Firefox, IE11, Edge, Vivaldi and Safari.
 
 ## Install
 
