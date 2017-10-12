@@ -14,11 +14,8 @@ To install from npm:
 $ npm install --save @fav/type.is-function
 ```
 
-Or from github (when npm < 2.7.0 which is not support scoped package):
+***NOTE:*** *npm < 2.7.0 does not support scoped package, but even old version Node.js supports it. So when you use such older npm, you should download this package from [github.com][repo-url], and move it in `node_modules/@fav/type.is-function/` direcotry manually.*
 
-```sh
-$ npm install --save sttk/fav-type.is-function#unscoped
-```
 
 ## Usage
 
@@ -26,13 +23,6 @@ For Node.js, when installing `@fav/type.is-function` from npm:
 
 ```js
 var isFunction = require('@fav/type.is-function');
-isFunction(function f() {}); // => true
-```
-
-Or when installing `fav-type.is-function` from github:
-
-```js
-var isFunction = require('fav-type.is-function');
 isFunction(function f() {}); // => true
 ```
 
