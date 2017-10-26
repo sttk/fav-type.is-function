@@ -14,7 +14,7 @@ To install from npm:
 $ npm install --save @fav/type.is-function
 ```
 
-***NOTE:*** *npm < 2.7.0 does not support scoped package, but even old version Node.js supports it. So when you use such older npm, you should download this package from [github.com][repo-url], and move it in `node_modules/@fav/type.is-function/` direcotry manually.*
+***NOTE:*** *npm < 2.7.0 does not support scoped package, but even old version Node.js supports it. So when you use such older npm, you should download this package from [github.com][repo-url], and move it in `node_modules/@fav/type.is-function/` directory manually.*
 
 
 ## Usage
@@ -24,6 +24,7 @@ For Node.js, when installing `@fav/type.is-function` from npm:
 ```js
 var isFunction = require('@fav/type.is-function');
 isFunction(function f() {}); // => true
+isFunction.not(function f() {}); // => false
 ```
 
 For Web browsers:
@@ -33,6 +34,7 @@ For Web browsers:
 <script>
 var isFunction = fav.type.isFunction;
 isFunction(function f() {}); // => true
+isFunction.not(function f() {}); // => false
 </script>
 ```
 
@@ -52,6 +54,25 @@ Checks if *value* is a function.
 #### Return:
 
 True, if *value* is a function.
+
+**Type:** boolean
+
+
+### <u>isFunction.not(value) : boolean</u>
+
+Checks if *value* is not a function.
+
+This function always returns a negative boolean of `isFunction(value)`.
+
+#### Parameter:
+
+| Parameter |  Type  | Description                 |
+|-----------|:------:|-----------------------------|
+| value     | *any*  | The value to be checked.    |
+
+#### Return:
+
+True, if *value* is not a function.
 
 **Type:** boolean
 
