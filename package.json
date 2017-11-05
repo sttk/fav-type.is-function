@@ -1,6 +1,6 @@
 {
   "name": "@fav/type.is-function",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Checks whether a value is a function or not.",
   "main": "index.js",
   "files": [
