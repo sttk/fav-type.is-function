@@ -14,7 +14,7 @@ describe('fav.type.isFunction.not', function() {
     expect(isNotFunction(function fn() {})).to.equal(false);
   });
 
-  it('Should return falsewhen value is a generator function', function() {
+  it('Should return false when value is a generator function', function() {
     if (!isSupportGenerator()) {
       this.skip();
       return;
